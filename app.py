@@ -65,7 +65,7 @@ def read_text(source, request_data):
         print(f"Error reading in text file: {e}")
         return ""    
 
-# Function to read text from a PDF file
+# Function to read text from a PDF 
 def read_pdf(file_content):
     text = ""
     pdf_reader = PyPDF2.PdfFileReader(file_content)
